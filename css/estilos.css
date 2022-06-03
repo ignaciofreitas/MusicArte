@@ -5,9 +5,11 @@ body {
 
 header {
   margin-bottom: 150px; }
-  header nav div a .logo {
-    width: 150px;
-    height: 120px; }
+  header nav {
+    background-color: white; }
+    header nav div a .logo {
+      width: 150px;
+      height: 120px; }
 
 .sticky_banner {
   position: fixed;
@@ -96,7 +98,8 @@ ul .nav2 {
       border-radius: 20px;
       margin-left: 5px;
       margin-right: 5px;
-      padding-top: 5px; }
+      padding-top: 5px;
+      margin-bottom: 10px; }
       .contenedor_cartas .grupo_cartas .card:hover {
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
       .contenedor_cartas .grupo_cartas .card .cartas {
@@ -275,7 +278,8 @@ footer {
     height: 400px;
     display: flex;
     justify-content: center;
-    align-items: center; }
+    align-items: center;
+    margin-bottom: 10px; }
     .m_sucursales .contenedor_cartas .grupo_cartas .card img {
       height: 100%;
       width: 100%; }
@@ -346,7 +350,8 @@ footer {
     display: flex;
     justify-content: center;
     padding: 10px;
-    margin-top: 20px; }
+    margin-top: 20px;
+    background-color: #070101; }
     .m_modelos .personalizacion .rango {
       display: inline-block;
       margin-left: 5px;
