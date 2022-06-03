@@ -1,0 +1,38 @@
+.m_registro{
+    overflow: hidden;
+    .contenedor_formularios{
+        display: flex;
+        justify-content:center;
+        align-items: flex-start;
+        padding: 20px;
+        form{
+            padding: 10px;
+            padding-left: 10%;
+            video{
+                width: 500px;
+                height: 400px;
+            }
+            img{
+                display: block;
+                margin-top: 10px;
+            }
+            div{
+                p{
+                    color: bisque;
+                }
+            }
+        }
+    }
+
+}
+
+@media only screen and (max-width:1072px){
+ 
+    .contenedor_formularios{
+        form{         
+            video{
+                display: none;
+            }
+        }
+    }
+}

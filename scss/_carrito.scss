@@ -1,0 +1,27 @@
+.m_carrito{
+    overflow: hidden;
+    .contenedor_cartas{
+        .grupo_cartas{
+            .card{
+                .card-body{
+                    a{
+                        margin-top: 10px;
+                    }
+                    .tacho{
+                        width: 20px;
+                        height: 20px;
+                        display: block;
+                        margin-top: 10px;
+                        filter: invert(17%) sepia(91%) saturate(6932%) hue-rotate(359deg) brightness(119%) contrast(119%);
+                    }
+                }
+            }
+        }
+    }
+
+
+}
+
+
+
+    

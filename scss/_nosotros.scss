@@ -1,0 +1,41 @@
+.m_nosotros{
+    overflow: hidden;
+    div{
+        p{
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+        .video-historia{
+            padding-left: 30px;
+            iframe{
+                height: 400px;
+                display: flex;
+                justify-content: center;
+                margin-bottom: 20px;
+            }
+        }
+        
+        img{
+            width: 360px;
+            height: 280px;
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-top: 10px;
+            margin-bottom: 10px;        
+        }
+    }
+    .videos_historia{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        background-color: black;
+        iframe{
+            margin-bottom: 10px;
+            opacity: .4;
+            &:hover{
+                opacity: 1;
+            }
+        }
+    }
+}

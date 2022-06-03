@@ -1,0 +1,151 @@
+.m_preguntas{
+    overflow: hidden;
+    .contenedor_menu-preguntas{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(../multimedia/fondo_preg.jpg);
+        background-size: cover;
+        padding: 20px;
+        .buscador{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            .stitulo-preg{
+                color: yellow;
+                font-weight: bold;
+                font-size: 60px;
+                text-align: center;
+                font-family: 'Fredoka One', cursive;
+                -webkit-text-stroke: 2px black;
+            }
+            input{
+                width: 600px;
+                border-radius: 20px;
+                height: 60px;
+                margin-bottom: 20px;
+                &:hover{
+                    border: solid grey;
+                }
+            }
+            button{
+                margin-left: 20px;
+                width: 100px;
+                margin-bottom: 20px;
+                color:white;
+                background-color: black;
+                border: solid yellow;
+                border-radius: 10px;
+                padding: 20px;
+                border: solid white;
+                &:hover{
+                    background-color: yellow;
+                    color: black;
+                    border: solid black;
+                }
+            }
+
+            .smenu{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+                padding: 10px;
+                width: 100%;
+                margin-bottom: 20px;
+                .iconos_smenu{
+                    display:flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding-top: 10px;
+                    width: 150px;
+                    height: 150px;
+                    margin: 10px;
+                    border-radius: 50%;
+                    img{
+                        width: 50px;
+                        height: 50px;
+                        background-color: yellow;
+                        border-radius: 100%;
+                    }
+                    p{
+                        color: yellow;
+                        text-align: center;
+                        background-color: black;
+                        border-radius: 20px;
+                        padding: 5px;
+                    }
+                }
+            }
+            .img_faq{
+                margin-top: 100px;
+                margin-bottom: 100px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                img{
+                    width: 70%;
+                    height: 70%;
+                }
+            }
+        }
+    }
+
+    .accordion{
+        .accordion-item{
+            .accordion-header{
+                button{
+                    color: aliceblue;
+                }
+            }
+            .accordion-collapse{
+                .accordion-body{
+                    color: aliceblue;
+                }
+            }
+        }
+    }
+    .contenedor_acordeon{
+        padding: 20px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        .contenedor_andreani{
+            img{
+                width: 80%;
+            }
+        }
+
+    }
+}
+
+@media only screen and (max-width:993px){
+
+.m_preguntas{
+    .contenedor_acordeon{
+        .accordion{
+            margin-left: 20px;
+        }
+        .contenedor_andreani{
+            img{
+                display: none;
+            }
+        }
+    }
+    .contenedor_menu-preguntas{
+        .buscador{
+            .smenu{
+                .iconos_smenu{
+                    height: 70px;
+                    width: 100px;
+                    p{
+                        display: none;
+                    }
+                }
+            }  
+        }
+    }
+}
+
+}

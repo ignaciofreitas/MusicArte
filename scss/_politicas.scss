@@ -1,0 +1,99 @@
+.m_politicas{
+    overflow: hidden;
+    .accordion{
+        .accordion-item{
+            .accordion-header{
+                button{
+                    color: aliceblue;
+                }
+            }
+            .accordion-collapse{
+                .accordion-body{
+                    color: aliceblue;
+                }
+            }
+        }
+    }
+    .contenedor_video{
+        padding: 20px;
+        background-color: rgb(214, 214, 214);       
+        iframe{
+            height: 400px;
+            margin-bottom: 20px;
+            &:hover{
+                box-shadow: 10px 10px 5px grey;
+            }
+        }
+        p{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: rgb(141, 141, 18);
+            font-size: 20px;
+        }    
+    }
+    .contenedor_acordeon{
+        padding: 20px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        .contenedor_andreani{
+            img{
+                width: 80%;
+            }
+        }
+
+    }
+    .verificacion-info{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 40px;
+        background-color: rgb(214, 214, 214);
+        div{
+            display: flex;
+            justify-content: flex-start;
+            background-color: aliceblue;
+            border-radius: 10px;
+            width: 600px;
+            padding: 10px;
+            &:hover{
+                box-shadow: 10px 10px 5px grey;
+            }
+            p{
+                text-align: start;
+                font-weight: bold;
+            }
+            button{
+                background-color: black;
+                color: yellow;
+                border-radius: 20px;
+                margin-right: 10px;
+                margin-bottom: 10px;
+                height: 30px;
+                &:hover{
+                    background-color: yellow;
+                    color: black;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:993px){
+
+.m_politicas{
+    .contenedor_acordeon{
+        .accordion{
+            margin-left: 20px;
+        }
+        .contenedor_andreani{
+            img{
+                display: none;
+            }
+        }
+    }
+}
+
+}
