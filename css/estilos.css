@@ -573,6 +573,8 @@ footer {
           .m_productos .contenedor_tipo-prod .categorias-prod ul li ul {
             color: grey;
             padding-left: 0; }
+            .m_productos .contenedor_tipo-prod .categorias-prod ul li ul:hover {
+              text-decoration: underline; }
 
 @media only screen and (max-width: 490px) {
   .m_productos {

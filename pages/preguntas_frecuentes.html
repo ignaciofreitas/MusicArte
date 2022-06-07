@@ -21,8 +21,10 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Cinzel&family=Fredoka+One&family=Gloria+Hallelujah&family=Playball&family=Righteous&display=swap" rel="stylesheet">  
-<link rel="icon" type="image/png" sizes="16x16" href="../favicon_io/favicon-16x16.png">    
-<title>Visitanos</title>
+<link rel="icon" type="image/png" sizes="16x16" href="../favicon_io/favicon-16x16.png">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>   
+<title>Preguntas frecuentes</title>
 </head>
 
 <body>
@@ -95,8 +97,8 @@
                     </li>
                 </a>
             </ul>
-            <img src="../multimedia/foto_banner1.jpg" alt="" class="col-sm-12 col-md-12 col-lg-9">
-            <img src="../multimedia/foto_banner2.jpg" alt="" class="col-sm-12 col-md-12 col-lg-9">
+            <img src="../multimedia/foto_banner1.jpg" alt="" class="col-sm-12 col-md-12 col-lg-9" class="col-sm-12 col-md-12 col-lg-9" data-aos="fade-right" data-aos-duration="1000">
+            <img src="../multimedia/foto_banner2.jpg" alt="" class="col-sm-12 col-md-12 col-lg-9" class="col-sm-12 col-md-12 col-lg-9" data-aos="fade-left" data-aos-duration="1000">
         </div>
         <section class="conteiner contenedor_menu-preguntas">
             <div class="row buscador">
@@ -104,33 +106,33 @@
                 <input type="text" name="pregunta" placeholder="Dejanos tu consulta..." id="">
                 <button type="submit">Enviar</button>
                 <section class="conteiner smenu">
-                    <div class="row col-lg-3 iconos_smenu">
+                    <div class="row col-lg-3 iconos_smenu" data-aos="fade-down-left" data-aos-duration="800">
                         <img src="../multimedia/facturacion.svg" alt="invoice">
                         <p class="tito">Facturacion</p>
                     </div>
-                    <div class="row col-lg-3 iconos_smenu">
+                    <div class="row col-lg-3 iconos_smenu" data-aos="fade-down-left" data-aos-duration="800">
                         <img src="../multimedia/tarj_cred.svg" alt="invoice">
                         <p>Tarjetas</p>
                     </div>
-                    <div class="row col-lg-3 iconos_smenu">
+                    <div class="row col-lg-3 iconos_smenu" data-aos="fade-down-left" data-aos-duration="800">
                         <img src="../multimedia/envios.svg" alt="invoice">
                         <p>Envíos</p>
                     </div>
-                    <div class="row col-lg-3 iconos_smenu">
+                    <div class="row col-lg-3 iconos_smenu" data-aos="fade-down-left" data-aos-duration="800">
                         <img src="../multimedia/descuento.svg" alt="invoice">
                         <p>Descuentos</p>
                     </div>
                 </section>
                 <section class="conteiner smenu">
-                    <div class="row col-lg-4 iconos_smenu">
+                    <div class="row col-lg-4 iconos_smenu" data-aos="fade-down-left" data-aos-duration="1200">
                         <img src="../multimedia/icono-musica.svg" alt="invoice">
                         <p class="tito">Nuestra playlist</p>
                     </div>
-                    <div class="row col-lg-4 iconos_smenu">
+                    <div class="row col-lg-4 iconos_smenu" data-aos="fade-down-left" data-aos-duration="1200">
                         <img src="../multimedia/icono-cambio.svg" alt="invoice">
                         <p>Cambios</p>
                     </div>
-                    <div class="row col-lg-4 iconos_smenu">
+                    <div class="row col-lg-4 iconos_smenu" data-aos="fade-down-left" data-aos-duration="1200">
                         <img src="../multimedia/icono-reembolso.svg" alt="invoice">
                         <p>Reembolsos</p>
                     </div>
@@ -148,7 +150,7 @@
             <div class="accordion col-xs-12 col-sm-12 col-md-12 col-lg-6" id="accordionExample">
                 <div class="accordion-item bg-dark">
                     <h2 class="accordion-header" id="headingOne">
-                        <button class="accordion-button collapsed bg-dark type=" button" data-bs-toggle="collapse"
+                        <button class="accordion-button collapsed bg-dark type=" button data-aos="fade-left" data-aos-duration="1000" data-bs-toggle="collapse"
                             data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                             ¿Es seguro pagar con mi tarjeta de crédito en www.musicarte.com.ar?
                         </button>
@@ -165,7 +167,7 @@
                 </div>
                 <div class="accordion-item bg-dark">
                     <h2 class="accordion-header" id="headingTwo">
-                        <button class="accordion-button collapsed bg-dark" type="button" data-bs-toggle="collapse"
+                        <button class="accordion-button collapsed bg-dark" type="button" data-aos="fade-left" data-aos-duration="1000" data-bs-toggle="collapse"
                             data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                             ¿Cuánto tiempo tengo para pagar mi pedido a través de cupones de pago?
                         </button>
@@ -179,7 +181,7 @@
                 </div>
                 <div class="accordion-item bg-dark">
                     <h2 class="accordion-header" id="headingThree">
-                        <button class="accordion-button collapsed bg-dark" type="button" data-bs-toggle="collapse"
+                        <button class="accordion-button collapsed bg-dark" type="button" data-aos="fade-left" data-aos-duration="1000" data-bs-toggle="collapse"
                             data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                             ¿Cómo sé que mi pago fue acreditado?
                         </button>
@@ -195,7 +197,7 @@
                 </div>
                 <div class="accordion-item bg-dark">
                     <h2 class="accordion-header" id="headingFour">
-                        <button class="accordion-button collapsed bg-dark" type="button" data-bs-toggle="collapse"
+                        <button class="accordion-button collapsed bg-dark" type="button" data-aos="fade-left" data-aos-duration="1000" data-bs-toggle="collapse"
                             data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                             ¿Cuáles son los medios de pago disponibles?
                         </button>
@@ -211,7 +213,7 @@
                 </div>
                 <div class="accordion-item bg-dark">
                     <h2 class="accordion-header" id="headingFive">
-                        <button class="accordion-button collapsed bg-dark" type="button" data-bs-toggle="collapse"
+                        <button class="accordion-button collapsed bg-dark" type="button" data-aos="fade-left" data-aos-duration="1000" data-bs-toggle="collapse"
                             data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                             ¿Cómo realizar un cambio?
                         </button>
@@ -238,7 +240,7 @@
                 </div>
                 <div class="accordion-item bg-dark">
                     <h2 class="accordion-header" id="headingSix">
-                        <button class="accordion-button collapsed bg-dark" type="button" data-bs-toggle="collapse"
+                        <button class="accordion-button collapsed bg-dark" type="button" data-aos="fade-left" data-aos-duration="1000" data-bs-toggle="collapse"
                             data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
                             ¿Cuántos cambios gratis puedo realizar?
                         </button>
@@ -252,7 +254,7 @@
                 </div>
                 <div class="accordion-item bg-dark">
                     <h2 class="accordion-header" id="headingSeven">
-                        <button class="accordion-button collapsed bg-dark" type="button" data-bs-toggle="collapse"
+                        <button class="accordion-button collapsed bg-dark" type="button" data-aos="fade-left" data-aos-duration="1000" data-bs-toggle="collapse"
                             data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
                             ¿Algo que compré no me satisface un 100%, puedo cambiarlo?
                         </button>
@@ -272,7 +274,7 @@
                 </div>
                 <div class="accordion-item bg-dark">
                     <h2 class="accordion-header" id="headingEight">
-                        <button class="accordion-button collapsed bg-dark" type="button" data-bs-toggle="collapse"
+                        <button class="accordion-button collapsed bg-dark" type="button" data-aos="fade-left" data-aos-duration="1000" data-bs-toggle="collapse"
                             data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
                             ¿Se puede utilizar un código de descuento para comprar productos en OFERTA?
                         </button>
@@ -316,6 +318,7 @@
             <img src="../multimedia/twitter-icon-circle-black-logo.png" alt="twitter" class="iconos_redes">
         </a>
     </footer>
+    <script> AOS.init(); </script>
 </body>
 
 </html>
