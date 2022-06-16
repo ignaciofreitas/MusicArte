@@ -17,7 +17,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
         <link rel="icon" type="image/png" sizes="16x16" href="../favicon_io/favicon-16x16.png">
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>    
         <title>Carrito de compras</title>
     </head>
     <body>
@@ -117,8 +117,8 @@
                              <option value="12Cuotas">12 sin interés</option>
                             </select>
                         </label>
-                            <a href="#" class="btn btn-primary">Confirmar compra</a>
-                            <img src="../multimedia/trash.svg" alt="cancelar_compra" class="tacho">
+                            <a href="#" id="myBtn" class="btn btn-primary conf_compra2">Confirmar compra</a>
+                            <img src="../multimedia/trash.svg" alt="cancelar_compra" class="tacho canc_compra">
                         </div>
                     </div>
                     <div class="card" style="width: 18rem;">
@@ -142,8 +142,8 @@
                              <option value="18Cuotas">18 sin interés</option>
                             </select>
                         </label>
-                            <a href="#" class="btn btn-primary">Confirmar compra</a>
-                            <img src="../multimedia/trash.svg" alt="cancelar_compra" class="tacho">
+                            <a href="#" class="btn btn-primary conf_compra">Confirmar compra</a>
+                            <img src="../multimedia/trash.svg" alt="cancelar_compra" class="tacho canc_compra2">
                         </div>
                     </div>
                     <div class="card" style="width: 18rem;">
@@ -166,8 +166,8 @@
                              <option value="12Cuotas">12 sin interés</option>
                             </select>
                         </label>
-                            <a href="#" class="btn btn-primary">Confirmar compra</a>
-                            <img src="../multimedia/trash.svg" alt="cancelar_compra" class="tacho">
+                            <a href="#" class="btn btn-primary conf_compra3">Confirmar compra</a>
+                            <img src="../multimedia/trash.svg" alt="cancelar_compra" class="tacho canc_compra3">
                         </div>
                     </div>
                 </div>
@@ -199,5 +199,7 @@
             </a>
         </footer>
         <script> AOS.init(); </script>
+        <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script src="../index.js"></script>
     </body>
 </html>
