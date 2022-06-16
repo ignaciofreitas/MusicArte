@@ -47,7 +47,17 @@ btn.addEventListener('click', () => {
         showCancelButton: true,
         confirmButtonText: 'Sí, seguro',
         cancelButtonText: 'No, no quiero'
-    })    
+    }).then((result) => {
+
+        if (result.isConfirmed) {
+            Swal.fire({
+                title: 'Borrado!',
+                icon: 'success',
+                text: 'El archivo ha sido borrado'
+            })
+        }
+    })
+   
 })
 
 btn = document.querySelector('.canc_compra2')
@@ -59,7 +69,17 @@ btn.addEventListener('click', () => {
         showCancelButton: true,
         confirmButtonText: 'Sí, seguro',
         cancelButtonText: 'No, no quiero'
-    })    
+    }).then((result) => {
+
+        if (result.isConfirmed) {
+            Swal.fire({
+                title: 'Borrado!',
+                icon: 'success',
+                text: 'El archivo ha sido borrado'
+            })
+        }
+    })
+    
 })
 
 btn = document.querySelector('.canc_compra3')
@@ -71,5 +91,15 @@ btn.addEventListener('click', () => {
         showCancelButton: true,
         confirmButtonText: 'Sí, seguro',
         cancelButtonText: 'No, no quiero'
-    })  
+    }).then((result) => {
+
+        if (result.isConfirmed) {
+            Swal.fire({
+                title: 'Borrado!',
+                icon: 'success',
+                text: 'El archivo ha sido borrado'
+            })
+        }
+    })
+  
 })
